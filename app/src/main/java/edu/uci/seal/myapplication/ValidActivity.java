@@ -27,5 +27,9 @@ public class ValidActivity extends AppCompatActivity {
             sendBroadcast(broadcastIntent);
         }
 
+
+
+
+
     }
 }

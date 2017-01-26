@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity implements Button.OnClickLi
 
             if(checkResult){//if valid: start validActivity
                 //send the username
-                Intent validIntent = new Intent(this, ValidActivity.class);
+                Intent validIntent = new Intent(LoginActivity.this, ValidActivity.class);
                 validIntent.putExtra("U", username);
                 startActivity(validIntent);
             }else{//else: start invalidActivity
