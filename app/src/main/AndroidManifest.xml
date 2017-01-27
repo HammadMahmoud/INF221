@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +23,6 @@
         <activity android:name=".InvalidActivity">
             <intent-filter>
                 <action android:name="A1" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
